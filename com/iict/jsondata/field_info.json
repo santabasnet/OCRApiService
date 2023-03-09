@@ -1,0 +1,2376 @@
+{
+  "allForms": [
+    {
+      "institution": "Nabil Bank",
+      "formTitle": "Customer Account Opening Form",
+      "formType": "accountOpening",
+      "formFields": [
+        {
+          "pageNo": 1,
+          "name": "branchName",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 110,
+                "y": 595
+              },
+              "bottomRight": {
+                "x": 500,
+                "y": 680
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "applicationDate",
+          "semantics": {
+            "ocrType": "numericCharacter",
+            "availableCharacters": "numbers",
+            "boundingBox": "character"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1785,
+                "y": 498
+              },
+              "bottomRight": {
+                "x": 2360,
+                "y": 580
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "accountType",
+          "semantics": {
+            "ocrType": "tickMark",
+            "availableCharacters": "",
+            "boundingBox": ""
+          },
+          "locations": [
+            {
+              "label": "current",
+              "topLeft": {
+                "x": 380,
+                "y": 870
+              },
+              "bottomRight": {
+                "x": 435,
+                "y": 925
+              }
+            },
+            {
+              "label": "saving",
+              "topLeft": {
+                "x": 600,
+                "y": 870
+              },
+              "bottomRight": {
+                "x": 660,
+                "y": 925
+              }
+            },
+            {
+              "label": "others",
+              "topLeft": {
+                "x": 805,
+                "y": 870
+              },
+              "bottomRight": {
+                "x": 865,
+                "y": 925
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "othersAccountType",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 980,
+                "y": 865
+              },
+              "bottomRight": {
+                "x": 1250,
+                "y": 940
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "currencyType",
+          "semantics": {
+            "ocrType": "tickMark",
+            "availableCharacters": "",
+            "boundingBox": ""
+          },
+          "locations": [
+            {
+              "label": "NPR",
+              "topLeft": {
+                "x": 1450,
+                "y": 870
+              },
+              "bottomRight": {
+                "x": 1510,
+                "y": 935
+              }
+            },
+            {
+              "label": "FCY",
+              "topLeft": {
+                "x": 1615,
+                "y": 870
+              },
+              "bottomRight": {
+                "x": 1680,
+                "y": 935
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "currencyName",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1760,
+                "y": 865
+              },
+              "bottomRight": {
+                "x": 2350,
+                "y": 940
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "accountPurpose",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 625,
+                "y": 950
+              },
+              "bottomRight": {
+                "x": 2350,
+                "y": 1025
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "sourceOfFund",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 410,
+                "y": 1050
+              },
+              "bottomRight": {
+                "x": 1200,
+                "y": 1110
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "anticipatedVolume",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1970,
+                "y": 1050
+              },
+              "bottomRight": {
+                "x": 2360,
+                "y": 1110
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "existingAccount",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "character"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 605,
+                "y": 1150
+              },
+              "bottomRight": {
+                "x": 2350,
+                "y": 1220
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "personTitle",
+          "semantics": {
+            "ocrType": "tickMark",
+            "availableCharacters": "",
+            "boundingBox": ""
+          },
+          "locations": [
+            {
+              "label": "Mr",
+              "topLeft": {
+                "x": 280,
+                "y": 1390
+              },
+              "bottomRight": {
+                "x": 335,
+                "y": 1450
+              }
+            },
+            {
+              "label": "Mrs",
+              "topLeft": {
+                "x": 450,
+                "y": 1390
+              },
+              "bottomRight": {
+                "x": 510,
+                "y": 1450
+              }
+            },
+            {
+              "label": "Ms",
+              "topLeft": {
+                "x": 665,
+                "y": 1390
+              },
+              "bottomRight": {
+                "x": 725,
+                "y": 1450
+              }
+            },
+            {
+              "label": "Other",
+              "topLeft": {
+                "x": 860,
+                "y": 1390
+              },
+              "bottomRight": {
+                "x": 915,
+                "y": 1450
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "othersTitle",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "character"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1025,
+                "y": 1390
+              },
+              "bottomRight": {
+                "x": 1500,
+                "y": 1450
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "applicantName",
+          "semantics": {
+            "ocrType": "characterUppercase",
+            "availableCharacters": "alphabets",
+            "boundingBox": "character"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 125,
+                "y": 1520
+              },
+              "bottomRight": {
+                "x": 2350,
+                "y": 1600
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "personGender",
+          "semantics": {
+            "ocrType": "tickMark",
+            "availableCharacters": "",
+            "boundingBox": ""
+          },
+          "locations": [
+            {
+              "label": "Male",
+              "topLeft": {
+                "x": 280,
+                "y": 1610
+              },
+              "bottomRight": {
+                "x": 340,
+                "y": 1670
+              }
+            },
+            {
+              "label": "Female",
+              "topLeft": {
+                "x": 450,
+                "y": 1610
+              },
+              "bottomRight": {
+                "x": 510,
+                "y": 1670
+              }
+            },
+            {
+              "label": "Other",
+              "topLeft": {
+                "x": 665,
+                "y": 1610
+              },
+              "bottomRight": {
+                "x": 720,
+                "y": 1670
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "othersGender",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 840,
+                "y": 1610
+              },
+              "bottomRight": {
+                "x": 1090,
+                "y": 1675
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "maritalStatus",
+          "semantics": {
+            "ocrType": "tickMark",
+            "availableCharacters": "",
+            "boundingBox": ""
+          },
+          "locations": [
+            {
+              "label": "Single",
+              "topLeft": {
+                "x": 1380,
+                "y": 1610
+              },
+              "bottomRight": {
+                "x": 1435,
+                "y": 1670
+              }
+            },
+            {
+              "label": "Married",
+              "topLeft": {
+                "x": 1575,
+                "y": 1610
+              },
+              "bottomRight": {
+                "x": 1630,
+                "y": 1670
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "nationality",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 2040,
+                "y": 1610
+              },
+              "bottomRight": {
+                "x": 2050,
+                "y": 1675
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "dateOfBirthBS",
+          "semantics": {
+            "ocrType": "numericCharacter",
+            "availableCharacters": "numbers",
+            "boundingBox": "character"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 360,
+                "y": 1690
+              },
+              "bottomRight": {
+                "x": 940,
+                "y": 1775
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "dateOfBirthAD",
+          "semantics": {
+            "ocrType": "numericCharacter",
+            "availableCharacters": "numbers",
+            "boundingBox": "character"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1060,
+                "y": 1690
+              },
+              "bottomRight": {
+                "x": 1635,
+                "y": 1775
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "education",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1965,
+                "y": 1690
+              },
+              "bottomRight": {
+                "x": 2360,
+                "y": 1775
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "familySize",
+          "semantics": {
+            "ocrType": "numericCharacter",
+            "availableCharacters": "numbers",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 435,
+                "y": 1790
+              },
+              "bottomRight": {
+                "x": 735,
+                "y": 1850
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "minorGuardiansName",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1285,
+                "y": 1790
+              },
+              "bottomRight": {
+                "x": 2350,
+                "y": 1850
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "mothersName",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 545,
+                "y": 1930
+              },
+              "bottomRight": {
+                "x": 1270,
+                "y": 1990
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "grandFatherName",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1800,
+                "y": 1930
+              },
+              "bottomRight": {
+                "x": 2350,
+                "y": 1990
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "grandMotherName",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 650,
+                "y": 2000
+              },
+              "bottomRight": {
+                "x": 1250,
+                "y": 2070
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "husbandWifeName",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1830,
+                "y": 2000
+              },
+              "bottomRight": {
+                "x": 2350,
+                "y": 2070
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "permanentHouseNo",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 285,
+                "y": 2150
+              },
+              "bottomRight": {
+                "x": 460,
+                "y": 2215
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "permanentToleStreet",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 665,
+                "y": 2150
+              },
+              "bottomRight": {
+                "x": 1110,
+                "y": 2215
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "permanentWardNo",
+          "semantics": {
+            "ocrType": "numericCharacter",
+            "availableCharacters": "numbers",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1300,
+                "y": 2150
+              },
+              "bottomRight": {
+                "x": 1500,
+                "y": 2215
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "permanentMunicipality",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1300,
+                "y": 2150
+              },
+              "bottomRight": {
+                "x": 1500,
+                "y": 2215
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "permanentDistrict",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 255,
+                "y": 2225
+              },
+              "bottomRight": {
+                "x": 660,
+                "y": 2280
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "permanentState",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 800,
+                "y": 2225
+              },
+              "bottomRight": {
+                "x": 1300,
+                "y": 2280
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "permanentCountry",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1470,
+                "y": 2225
+              },
+              "bottomRight": {
+                "x": 2350,
+                "y": 2280
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "currentHouseNo",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 285,
+                "y": 2390
+              },
+              "bottomRight": {
+                "x": 460,
+                "y": 2450
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "currentToleStreet",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 665,
+                "y": 2390
+              },
+              "bottomRight": {
+                "x": 1110,
+                "y": 2450
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "currentWardNo",
+          "semantics": {
+            "ocrType": "numericCharacter",
+            "availableCharacters": "numbers",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1300,
+                "y": 2390
+              },
+              "bottomRight": {
+                "x": 1500,
+                "y": 2450
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "currentMunicipality",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1730,
+                "y": 2390
+              },
+              "bottomRight": {
+                "x": 2350,
+                "y": 2450
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "currentDistrict",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 250,
+                "y": 2450
+              },
+              "bottomRight": {
+                "x": 660,
+                "y": 2525
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "currentState",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 790,
+                "y": 2450
+              },
+              "bottomRight": {
+                "x": 1300,
+                "y": 2525
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "currentCountry",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1460,
+                "y": 2465
+              },
+              "bottomRight": {
+                "x": 2350,
+                "y": 2525
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "officeHouseNo",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 285,
+                "y": 2630
+              },
+              "bottomRight": {
+                "x": 460,
+                "y": 2690
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "officeToleStreet",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 665,
+                "y": 2630
+              },
+              "bottomRight": {
+                "x": 1110,
+                "y": 2690
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "officeWardNo",
+          "semantics": {
+            "ocrType": "numericCharacter",
+            "availableCharacters": "numbers",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1300,
+                "y": 2630
+              },
+              "bottomRight": {
+                "x": 1500,
+                "y": 2690
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "officeMunicipality",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1730,
+                "y": 2630
+              },
+              "bottomRight": {
+                "x": 2350,
+                "y": 2690
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "officeDistrict",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 250,
+                "y": 2690
+              },
+              "bottomRight": {
+                "x": 660,
+                "y": 2760
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "officeState",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 790,
+                "y": 2690
+              },
+              "bottomRight": {
+                "x": 1300,
+                "y": 2760
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "officeCountry",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1460,
+                "y": 2630
+              },
+              "bottomRight": {
+                "x": 2350,
+                "y": 2690
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "webAddress",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 355,
+                "y": 2765
+              },
+              "bottomRight": {
+                "x": 1230,
+                "y": 2830
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "officeEmail",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1460,
+                "y": 2765
+              },
+              "bottomRight": {
+                "x": 2350,
+                "y": 2830
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "contactMobile1",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 325,
+                "y": 2920
+              },
+              "bottomRight": {
+                "x": 850,
+                "y": 2980
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "contactMobile2",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1100,
+                "y": 2920
+              },
+              "bottomRight": {
+                "x": 1660,
+                "y": 2980
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "contactFaxNumber",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1890,
+                "y": 2920
+              },
+              "bottomRight": {
+                "x": 2345,
+                "y": 2980
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "contactLandLine",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 525,
+                "y": 2980
+              },
+              "bottomRight": {
+                "x": 1000,
+                "y": 3055
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "officeLandLine",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1370,
+                "y": 2980
+              },
+              "bottomRight": {
+                "x": 2350,
+                "y": 3055
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "contactEmail",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 215,
+                "y": 3050
+              },
+              "bottomRight": {
+                "x": 1150,
+                "y": 3130
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "socialMediaUserName",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1730,
+                "y": 3050
+              },
+              "bottomRight": {
+                "x": 2350,
+                "y": 3130
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 1,
+          "name": "applicantSignature",
+          "semantics": {
+            "ocrType": "",
+            "availableCharacters": "",
+            "boundingBox": "signature"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1960,
+                "y": 3150
+              },
+              "bottomRight": {
+                "x": 2345,
+                "y": 3400
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "localContactName",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 210,
+                "y": 275
+              },
+              "bottomRight": {
+                "x": 1430,
+                "y": 325
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "localContactPhone",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1750,
+                "y": 275
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 325
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "localContactAddress",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 245,
+                "y": 340
+              },
+              "bottomRight": {
+                "x": 1430,
+                "y": 405
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "localContactRelationship",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1655,
+                "y": 340
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 405
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "landlordName",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 370,
+                "y": 510
+              },
+              "bottomRight": {
+                "x": 1430,
+                "y": 565
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "landlordPhone",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1855,
+                "y": 510
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 565
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "idDocument",
+          "semantics": {
+            "ocrType": "tickMark",
+            "availableCharacters": "",
+            "boundingBox": ""
+          },
+          "locations": [
+            {
+              "label": "citizenship",
+              "topLeft": {
+                "x": 110,
+                "y": 695
+              },
+              "bottomRight": {
+                "x": 160,
+                "y": 740
+              }
+            },
+            {
+              "label": "passport",
+              "topLeft": {
+                "x": 595,
+                "y": 695
+              },
+              "bottomRight": {
+                "x": 640,
+                "y": 740
+              }
+            },
+            {
+              "label": "other",
+              "topLeft": {
+                "x": 955,
+                "y": 695
+              },
+              "bottomRight": {
+                "x": 1000,
+                "y": 740
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "otherIdDocument",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1320,
+                "y": 680
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 745
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "idDocumentMinor",
+          "semantics": {
+            "ocrType": "tickMark",
+            "availableCharacters": "",
+            "boundingBox": ""
+          },
+          "locations": [
+            {
+              "label": "birthCertificate",
+              "topLeft": {
+                "x": 420,
+                "y": 795
+              },
+              "bottomRight": {
+                "x": 470,
+                "y": 845
+              }
+            },
+            {
+              "label": "minorsId",
+              "topLeft": {
+                "x": 955,
+                "y": 795
+              },
+              "bottomRight": {
+                "x": 1000,
+                "y": 845
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "otherIdDocumentMinor",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1190,
+                "y": 765
+              },
+              "bottomRight": {
+                "x": 1470,
+                "y": 850
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "idDocumentRefugee",
+          "semantics": {
+            "ocrType": "tickMark",
+            "availableCharacters": "",
+            "boundingBox": ""
+          },
+          "locations": [
+            {
+              "label": "refugeeId",
+              "topLeft": {
+                "x": 1855,
+                "y": 795
+              },
+              "bottomRight": {
+                "x": 1905,
+                "y": 845
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "otherIdDocumentRefugee",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 2090,
+                "y": 765
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 850
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "idDocumentForeigner",
+          "semantics": {
+            "ocrType": "tickMark",
+            "availableCharacters": "",
+            "boundingBox": ""
+          },
+          "locations": [
+            {
+              "label": "passportOrVisa",
+              "topLeft": {
+                "x": 595,
+                "y": 890
+              },
+              "bottomRight": {
+                "x": 640,
+                "y": 940
+              }
+            },
+            {
+              "label": "other",
+              "topLeft": {
+                "x": 955,
+                "y": 890
+              },
+              "bottomRight": {
+                "x": 1000,
+                "y": 940
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "otherIdDocumentForeigner",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1310,
+                "y": 865
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 940
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "idNumber",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 300,
+                "y": 955
+              },
+              "bottomRight": {
+                "x": 550,
+                "y": 1025
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "idIssuedBy",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 755,
+                "y": 955
+              },
+              "bottomRight": {
+                "x": 1300,
+                "y": 1025
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "idIssuedPlace",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1545,
+                "y": 955
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 1025
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "idIssuedDate",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 345,
+                "y": 1045
+              },
+              "bottomRight": {
+                "x": 1300,
+                "y": 1115
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "idExpiryDate",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1545,
+                "y": 1045
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 1115
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "idVisaIssuedDate",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 375,
+                "y": 1130
+              },
+              "bottomRight": {
+                "x": 1300,
+                "y": 1205
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "idVisaExpiryDate",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1580,
+                "y": 1130
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 1205
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "idPANNumber",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 335,
+                "y": 1220
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 1285
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "familyDetails",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "table"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 110,
+                "y": 1525
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 2055
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "salariedInstitutionName",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 370,
+                "y": 2150
+              },
+              "bottomRight": {
+                "x": 1355,
+                "y": 2205
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "salariedDesignation",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1555,
+                "y": 2150
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 2205
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "salariedOccupationType",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 390,
+                "y": 2220
+              },
+              "bottomRight": {
+                "x": 1355,
+                "y": 2280
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "salariedEstimatedIncome",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1765,
+                "y": 2220
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 2280
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "selfEmployedInstitutionName",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 390,
+                "y": 2390
+              },
+              "bottomRight": {
+                "x": 1300,
+                "y": 2445
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "selfEmployedOccupationType",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1585,
+                "y": 2390
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 2445
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "selfEmployedInstitutionPAN",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 490,
+                "y": 2455
+              },
+              "bottomRight": {
+                "x": 1300,
+                "y": 2520
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "selfEmployedLicenseRenewalDate",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1860,
+                "y": 2455
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 2520
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "selfEmployedTotalEmployee",
+          "semantics": {
+            "ocrType": "numericCharacter",
+            "availableCharacters": "numbers",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 355,
+                "y": 2530
+              },
+              "bottomRight": {
+                "x": 1300,
+                "y": 2595
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "selfEmployedTurnOver",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1710,
+                "y": 2530
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 2595
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "selfEmployedConstitution",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 300,
+                "y": 2610
+              },
+              "bottomRight": {
+                "x": 1300,
+                "y": 2670
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "selfEmployedNatureOfBusiness",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1600,
+                "y": 2610
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 2670
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "selfEmployedTotalBranch",
+          "semantics": {
+            "ocrType": "numericCharacter",
+            "availableCharacters": "numbers",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 420,
+                "y": 2680
+              },
+              "bottomRight": {
+                "x": 1300,
+                "y": 2745
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "selfEmployedEstimatedIncome",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1710,
+                "y": 2680
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 2745
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "additionalOccupationType",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 385,
+                "y": 2860
+              },
+              "bottomRight": {
+                "x": 1300,
+                "y": 2910
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "additionalAnnualIncome",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphanumeric",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1710,
+                "y": 2860
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 2910
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "additionalInstitutionName",
+          "semantics": {
+            "ocrType": "characterText",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 390,
+                "y": 2920
+              },
+              "bottomRight": {
+                "x": 1300,
+                "y": 2985
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "additionalInstitutionAddress",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1600,
+                "y": 2920
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 2985
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "otherBankNameAccountType",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 540,
+                "y": 3095
+              },
+              "bottomRight": {
+                "x": 1300,
+                "y": 3150
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "otherBankAccountNumberFacilities",
+          "semantics": {
+            "ocrType": "characterBoth",
+            "availableCharacters": "alphabets",
+            "boundingBox": "word"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1740,
+                "y": 3095
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 3150
+              }
+            }
+          ]
+        },
+        {
+          "pageNo": 2,
+          "name": "applicantsSignature",
+          "semantics": {
+            "ocrType": "",
+            "availableCharacters": "",
+            "boundingBox": "signature"
+          },
+          "locations": [
+            {
+              "label": "",
+              "topLeft": {
+                "x": 1945,
+                "y": 3220
+              },
+              "bottomRight": {
+                "x": 2335,
+                "y": 3370
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

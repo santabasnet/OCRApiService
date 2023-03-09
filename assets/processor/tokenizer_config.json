@@ -1,0 +1,22 @@
+{
+  "bos_token": "<s>",
+  "cls_token": "<s>",
+  "eos_token": "</s>",
+  "mask_token": {
+    "__type": "AddedToken",
+    "content": "<mask>",
+    "lstrip": true,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "model_max_length": 1000000000000000019884624838656,
+  "name_or_path": "/content/gdrive/MyDrive/Semantro_ocr/processor",
+  "pad_token": "<pad>",
+  "processor_class": "TrOCRProcessor",
+  "sep_token": "</s>",
+  "sp_model_kwargs": {},
+  "special_tokens_map_file": "/root/.cache/huggingface/hub/models--microsoft--trocr-small-handwritten/snapshots/55eb2010aeaaa246defc329d42939e0253d55c99/special_tokens_map.json",
+  "tokenizer_class": "XLMRobertaTokenizer",
+  "unk_token": "<unk>"
+}
