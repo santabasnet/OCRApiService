@@ -58,3 +58,8 @@ An OCR service for extracting form data using predefined templates. It leverages
     inputImage = cv2.imread(filePath, cv2.IMREAD_COLOR)
     return await processImageWithTesseract(inputImage)
 ``` 
+5. REST API Request:
+```Curl
+curl --location 'http://18.218.208.15:5000/ocr' \
+--form 'file=@"/home/santa/Desktop/nepali.jpg"'
+```
