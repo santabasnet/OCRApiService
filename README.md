@@ -20,6 +20,27 @@ An OCR service for extracting form data using predefined templates. It leverages
         ocrFields: list[FormField] = DocumentFields.ocrFromTemplateFields(pageNo + 1)
         return {formField.getName(): self.__makeSlices(formField, pageNo) for formField in ocrFields}
    ```
+   After image processing and slicing, some extracted fields looks like the following:
+   a. Email
+   ![Email](./assets/output/contactEmail_0_0.png)
+   
+   b. Applicant Signature
+   ![Signature](./assets/output/applicantSignature_0_0.png)
+
+   c. Current District
+   ![District](./assets/output/currentDistrict_0_0.png)
+
+   d. Father Name
+   ![Father Name](./assets/output/grandFatherName_0_0.png)
+
+   e. Phone Number
+   ![Phone Number](./assets/output/landlordPhone_1_0.png)
+
+   f. Family Details
+   ![Family Details](./assets/output/familyDetails_1_0.png)
+
+   ... and so on.
+   
    
 3. Text Extraction
    ```Python
